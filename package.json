@@ -1,0 +1,28 @@
+{
+  "name": "fccchallenges",
+  "version": "1.0.0",
+  "description": "a simple random quote generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPra/randomQuotes.git"
+  },
+  "keywords": [
+    "random",
+    "quote",
+    "generator",
+    "machine"
+  ],
+  "author": "king pra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingPra/randomQuotes/issues"
+  },
+  "homepage": "https://github.com/KingPra/randomQuotes#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}
