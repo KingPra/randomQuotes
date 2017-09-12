@@ -1,3 +1,44 @@
-body {
-  background: salmon;
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 800px;
+  width: 800px;
+  background: grey;
+  margin-left: -400px;
+  margin-top: -400px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+
+.center {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  height: 300px;
+  overflow: scroll;
+}
+
+.quotations {
+  display: inline-block;
+  font-size: 5em;
+  color: #1D70A2;
+}
+
+.quote {
+  color: white;
+  font-size: 3em;
+  display: inline;
+}
+
+.author {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  font-size: 2em;
+  color: #1D70A2;
+}
+
+.get_quote {
+  margin-top: 10%;
 }
