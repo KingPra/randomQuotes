@@ -17,6 +17,8 @@
   text-align: center;
   height: 300px;
   overflow: scroll;
+  padding: 10px;
+
 }
 
 .quotations {
@@ -40,5 +42,22 @@
 }
 
 .get_quote {
-  margin-top: 10%;
+  position: absolute;
+  top: 5%;
+  right: 4%;
+  padding: 10px 30px;
+  border: 2px solid #1d70a2;
+  border-radius: 4px;
+  box-shadow: 3px 10px 10px 0 rgba(0,0,0,0.3);
+  color: #1d70a2;
+  font-size: 1.5em;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background: rgba(255,255,255,0.7);
+    box-shadow: 1px 5px 10px 0 rgba(0,0,0,0.3);
+  }
 }
