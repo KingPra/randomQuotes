@@ -1,4 +1,3 @@
-
 window.addEventListener('load', () => {
   getQuotes();
 });
@@ -20,3 +19,12 @@ function getQuotes () {
   })
 request.send();
 }
+
+tweet = document.querySelector('.twitter');
+tweet.addEventListener('click', () => {
+  const twitter = href="https://twitter.com/intent/tweet?text=";
+  let phrase = document.querySelector('.quote').innerHTML;
+  let author = document.querySelector('.author').innerHTML;
+  
+  window.open(`${twitter}${phrase} -${author}`);
+});

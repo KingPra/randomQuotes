@@ -1,3 +1,11 @@
+.title {
+  position: absolute;
+  left: 45px;
+  top: 15%;
+  color: #1d70a2;
+  font-size: 6em;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3); }
+
 .frame {
   position: absolute;
   top: 50%;
@@ -8,7 +16,7 @@
   margin-left: -400px;
   margin-top: -400px;
   border-radius: 3px;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3); }
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); }
 
 .center {
   position: relative;
@@ -35,6 +43,15 @@
   font-size: 2em;
   color: #1D70A2; }
 
+.twitter {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  color: #1d70a2;
+  cursor: pointer; }
+  .twitter:active {
+    color: white; }
+
 .get_quote {
   position: absolute;
   top: 5%;
@@ -44,9 +61,8 @@
   border-radius: 4px;
   box-shadow: 3px 10px 10px 0 rgba(0, 0, 0, 0.3);
   color: #1d70a2;
-  font-size: 1.5em; }
-  .get_quote:hover {
-    cursor: pointer; }
+  font-size: 1.5em;
+  cursor: pointer; }
   .get_quote:active {
     background: rgba(255, 255, 255, 0.7);
     box-shadow: 1px 5px 10px 0 rgba(0, 0, 0, 0.3); }
